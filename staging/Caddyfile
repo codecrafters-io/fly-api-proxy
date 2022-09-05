@@ -1,0 +1,5 @@
+http:// {
+	reverse_proxy http://_api.internal:4280 {
+		header_up Host {upstream_hostport}
+	}
+}

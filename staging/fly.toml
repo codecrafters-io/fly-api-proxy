@@ -1,3 +1,6 @@
+# fly.toml file generated for codecrafters-fly-api-proxy-staging on 2022-09-05T09:44:32+01:00
+
+app = "codecrafters-fly-api-proxy-staging"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
@@ -14,7 +17,6 @@ processes = []
   processes = ["app"]
   protocol = "tcp"
   script_checks = []
-
   [services.concurrency]
     hard_limit = 25
     soft_limit = 20

@@ -1,3 +1,5 @@
+# fly.toml file generated for codecrafters-fly-api-proxy-production on 2022-09-05T09:48:33+01:00
+
 app = "codecrafters-fly-api-proxy-production"
 kill_signal = "SIGINT"
 kill_timeout = 5
